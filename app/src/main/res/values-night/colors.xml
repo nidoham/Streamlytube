@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (Material 3 dark) -->
+    <color name="colorPrimary">#BB86FC</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorSecondary">#03DAC5</color>
+
+    <!-- Background & Surface -->
+    <color name="colorBackground">#1C1B1F</color>
+    <color name="colorSurface">#121212</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+    <color name="colorOnSurface">#E6E1E5</color>
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecondary">#B3FFFFFF</color>
+
+    <!-- System Bars -->
+    <color name="statusBarBackground">#1C1B1F</color>
+    <color name="navigationBarBackground">#1C1B1F</color>
+
+    <!-- Splash screen -->
+    <color name="splash_background">#1C1B1F</color>
+    <color name="splash_status_bar">#1C1B1F</color>
+</resources>

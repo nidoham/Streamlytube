@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Streamly</string>
+    <string name="enter_youtube_url">Enter YouTube URL</string>
+    <string name="get_all_quality_links">Get All Quality Links</string>
+    <string name="default_quality_label">HD</string>
+    <string name="video_title_placeholder">Video Title</string>
+    <string name="video_duration_placeholder">00:00</string>
+    <string name="quality_button">Quality</string>
+    <string name="fullscreen_button">Fullscreen</string>
+    <string name="download_button">Download</string>
+    <string name="available_quality_options">Available Quality Options</string>
+    <string name="select_playable_stream">Select a playable video stream</string>
+    <string name="fullscreen_not_implemented">Fullscreen not implemented</string>
+    <string name="download_not_implemented">Download not implemented</string>
+    <string name="player_error">Player error: %s</string>
+    <string name="ready_to_play">Ready to play</string>
+    <string name="buffering">Buffering...</string>
+    <string name="playback_ended">Playback ended</string>
+    <string name="playing_stream">Playing: %s</string>
+    <string name="play_stream_failed">Failed to play stream: %s</string>
+    <string name="enter_valid_url">Please enter a valid URL</string>
+    <string name="no_streams_found">No streams found</string>
+    <string name="streams_found">Found streams - Click on video streams to play</string>
+    <string name="error_message">Error: %s</string>
+    <string name="video_title_label">Title: %s</string>
+    <string name="video_duration_label">Duration: %s</string>
+    <string name="uploader_label">Uploader: %s</string>
+    <string name="view_count_label">View Count: %s</string>
+    <string name="video_streams_header">=== VIDEO STREAMS (Click to play) ===</string>
+    <string name="audio_streams_header">=== AUDIO STREAMS (Click to play) ===</string>
+    <string name="no_video_streams">No video streams found</string>
+    <string name="no_audio_streams">No audio streams found</string>
+    <string name="video_stream_item" formatted="false">📹 Video: %s - %s</string>
+    <string name="audio_stream_item" formatted="false">🎵 Audio: %s - %dkbps</string>
+    <string name="extract_stream_failed">Failed to extract stream info: %s</string>
+    <string name="unknown_duration">Unknown</string>
+    <!-- Added for ReCaptchaActivity and DownloaderImpl -->
+    <string name="youtube_restricted_mode_enabled">YouTubeRestrictedModeEnabled</string>
+    <string name="title_activity_recaptcha">Solve reCAPTCHA</string>
+    <string name="subtitle_activity_recaptcha">Solve the challenge to continue</string>
+    
+    <!-- Loading state -->
+    <string name="loading_text">Loading content…</string>
+    
+    <!-- Error state -->
+    <string name="error_icon_description">Error icon</string>
+    <string name="default_error_message">Something went wrong. Please try again.</string>
+    <string name="retry_button_text">Retry</string>
+    <string name="retry_button_description">Retry loading content</string>
+    
+    <!-- Empty state -->
+    <string name="empty_state_description">No content available</string>
+    <string name="empty_state_message">No content available at the moment</string>
+    
+    <!-- Swipe refresh -->
+    <string name="swipe_refresh_description">Pull to refresh content</string>
+
+</resources>

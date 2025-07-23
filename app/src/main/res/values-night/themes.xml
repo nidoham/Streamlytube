@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Night Mode Base Theme -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorTertiary">@color/colorTertiary</item>
+
+        <!-- Background & Surface -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+
+        <!-- System Bars -->
+        <item name="android:statusBarColor">@color/statusBarBackground</item>
+        <item name="android:navigationBarColor">@color/navigationBarBackground</item>
+
+        <!-- Buttons -->
+        <item name="materialButtonStyle">@style/Widget.Streamly.Button</item>
+    </style>
+
+    <!-- Night Mode Full Screen Theme -->
+    <style name="FullScreenTheme" parent="AppTheme">
+        <!-- Full screen setup -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- Cutout support -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <!-- Transparent system bars -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+
+    <!-- Custom Button (Dark Mode) -->
+    <style name="Widget.Streamly.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+</resources>

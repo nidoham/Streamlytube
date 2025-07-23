@@ -1,0 +1,303 @@
+# ═══════════════════════════════════════════════════════════════════════════════════
+# libs.versions.toml - Fixed Kotlin Version Compatibility
+# Kotlin 2.1.0 এবং compatible versions ব্যবহার করা হয়েছে
+# ═══════════════════════════════════════════════════════════════════════════════════
+
+[versions]
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Core Build Tools - Updated to compatible versions
+# ═══════════════════════════════════════════════════════════════════════════════════
+kotlin = "2.1.0"
+agp = "8.10.0"
+ksp = "2.1.0-1.0.29"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Android SDK Configuration
+# ═══════════════════════════════════════════════════════════════════════════════════
+version-code = "1"
+version-name = "0.1-alpha"
+java-version = "17"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# AndroidX Core Libraries - Updated to latest stable versions
+# ═══════════════════════════════════════════════════════════════════════════════════
+androidx-core = "1.15.0"
+androidx-appcompat = "1.7.0"
+androidx-activity = "1.9.3"
+androidx-fragment = "1.8.5"
+androidx-lifecycle = "2.8.7"
+androidx-navigation = "2.8.4"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# UI Components - Updated versions
+# ═══════════════════════════════════════════════════════════════════════════════════
+material = "1.12.0"
+constraint-layout = "2.2.0"
+recyclerview = "1.3.2"
+viewpager2 = "1.1.0"
+swiperefresh = "1.1.0"
+preference = "1.2.1"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Dependency Injection - Updated Hilt version
+# ═══════════════════════════════════════════════════════════════════════════════════
+hilt = "2.52"
+hilt-navigation-compose = "1.2.0"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Network & API - Compatible versions
+# ═══════════════════════════════════════════════════════════════════════════════════
+retrofit = "2.11.0"
+okhttp = "4.12.0"
+kotlinx-serialization = "1.7.3"
+retrofit-serialization = "1.0.0"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Asynchronous Programming - Updated coroutines
+# ═══════════════════════════════════════════════════════════════════════════════════
+coroutines = "1.9.0"
+rxjava = "3.1.8"
+rxandroid = "3.0.2"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Media Processing - Latest versions
+# ═══════════════════════════════════════════════════════════════════════════════════
+media3 = "1.5.0"
+glide = "4.16.0"
+lottie = "6.6.0"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Utility Libraries
+# ═══════════════════════════════════════════════════════════════════════════════════
+gson = "2.11.0"
+prettytime = "5.0.8.Final"
+timber = "5.0.1"
+circle-imageview = "3.1.0"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Third-party Specialized Libraries
+# ═══════════════════════════════════════════════════════════════════════════════════
+newpipe-extractor = "v0.24.6"
+play-services-ads = "23.6.0"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Testing Framework - Updated versions
+# ═══════════════════════════════════════════════════════════════════════════════════
+junit = "4.13.2"
+junit-ext = "1.2.1"
+espresso = "3.6.1"
+mockito = "5.14.2"
+mockito-kotlin = "5.4.0"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Development Tools - Updated versions
+# ═══════════════════════════════════════════════════════════════════════════════════
+leakcanary = "2.14"
+detekt = "1.23.7"
+ktlint = "12.1.2"
+versions-plugin = "0.51.0"
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Java Compatibility
+# ═══════════════════════════════════════════════════════════════════════════════════
+desugar-jdk-libs = "2.1.2"
+
+[libraries]
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Core Android & Kotlin Libraries
+# ═══════════════════════════════════════════════════════════════════════════════════
+kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core" }
+desugar-jdk-libs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugar-jdk-libs" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# AndroidX UI Components
+# ═══════════════════════════════════════════════════════════════════════════════════
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraint-layout" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+androidx-viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version.ref = "viewpager2" }
+androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefresh" }
+androidx-preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preference" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Architecture Components
+# ═══════════════════════════════════════════════════════════════════════════════════
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "androidx-activity" }
+androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "androidx-fragment" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "androidx-navigation" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "androidx-navigation" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Dependency Injection
+# ═══════════════════════════════════════════════════════════════════════════════════
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-navigation-compose" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Network & API
+# ═══════════════════════════════════════════════════════════════════════════════════
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-kotlinx-serialization = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version.ref = "retrofit-serialization" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+okhttp-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Asynchronous Programming
+# ═══════════════════════════════════════════════════════════════════════════════════
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+rxjava = { group = "io.reactivex.rxjava3", name = "rxjava", version.ref = "rxjava" }
+rxandroid = { group = "io.reactivex.rxjava3", name = "rxandroid", version.ref = "rxandroid" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Media & Image Processing
+# ═══════════════════════════════════════════════════════════════════════════════════
+media3-exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "media3" }
+media3-ui = { group = "androidx.media3", name = "media3-ui", version.ref = "media3" }
+media3-session = { group = "androidx.media3", name = "media3-session", version.ref = "media3" }
+media3-exoplayer-hls = { group = "androidx.media3", name = "media3-exoplayer-hls", version.ref = "media3" }
+media3-exoplayer-dash = { group = "androidx.media3", name = "media3-exoplayer-dash", version.ref = "media3" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-ksp = { group = "com.github.bumptech.glide", name = "ksp", version.ref = "glide" }
+circle-imageview = { group = "de.hdodenhof", name = "circleimageview", version.ref = "circle-imageview" }
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Utility Libraries
+# ═══════════════════════════════════════════════════════════════════════════════════
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+prettytime = { group = "org.ocpsoft.prettytime", name = "prettytime", version.ref = "prettytime" }
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Third-party Specialized
+# ═══════════════════════════════════════════════════════════════════════════════════
+newpipe-extractor = { group = "com.github.TeamNewPipe", name = "NewPipeExtractor", version.ref = "newpipe-extractor" }
+play-services-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "play-services-ads" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Development & Debugging
+# ═══════════════════════════════════════════════════════════════════════════════════
+leakcanary = { group = "com.squareup.leakcanary", name = "leakcanary-android", version.ref = "leakcanary" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Testing
+# ═══════════════════════════════════════════════════════════════════════════════════
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+junit-ext = { group = "androidx.test.ext", name = "junit", version.ref = "junit-ext" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
+mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
+mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockito-kotlin" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
+hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hilt" }
+
+[plugins]
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Android Core Plugins
+# ═══════════════════════════════════════════════════════════════════════════════════
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Kotlin Language Plugins
+# ═══════════════════════════════════════════════════════════════════════════════════
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Code Generation & Processing
+# ═══════════════════════════════════════════════════════════════════════════════════
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Code Quality Tools
+# ═══════════════════════════════════════════════════════════════════════════════════
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
+versions = { id = "com.github.ben-manes.versions", version.ref = "versions-plugin" }
+
+[bundles]
+# ═══════════════════════════════════════════════════════════════════════════════════
+# Dependency Bundles - Related dependencies grouped together
+# ═══════════════════════════════════════════════════════════════════════════════════
+
+# AndroidX UI Bundle
+androidx-ui = [
+    "androidx-appcompat",
+    "material",
+    "androidx-constraintlayout",
+    "androidx-recyclerview",
+    "androidx-viewpager2",
+    "androidx-swiperefreshlayout",
+    "androidx-preference-ktx"
+]
+
+# Architecture Components Bundle
+androidx-architecture = [
+    "androidx-activity-ktx",
+    "androidx-fragment-ktx",
+    "androidx-lifecycle-viewmodel-ktx",
+    "androidx-lifecycle-livedata-ktx",
+    "androidx-lifecycle-runtime-ktx"
+]
+
+# Navigation Bundle
+androidx-navigation = [
+    "androidx-navigation-fragment-ktx",
+    "androidx-navigation-ui-ktx"
+]
+
+# Network Bundle
+network = [
+    "retrofit",
+    "retrofit-kotlinx-serialization",
+    "okhttp",
+    "okhttp-logging-interceptor",
+    "kotlinx-serialization-json"
+]
+
+# Coroutines Bundle
+coroutines = [
+    "kotlinx-coroutines-android",
+    "kotlinx-coroutines-core"
+]
+
+# RxJava Bundle
+rxjava = [
+    "rxjava",
+    "rxandroid"
+]
+
+# Media3 Bundle
+media3 = [
+    "media3-exoplayer",
+    "media3-ui",
+    "media3-session",
+    "media3-exoplayer-hls",
+    "media3-exoplayer-dash"
+]
+
+# Testing Bundle
+testing = [
+    "junit",
+    "mockito-core",
+    "mockito-kotlin",
+    "kotlinx-coroutines-test"
+]
+
+# Android Testing Bundle
+android-testing = [
+    "junit-ext",
+    "espresso-core",
+    "hilt-android-testing"
+]

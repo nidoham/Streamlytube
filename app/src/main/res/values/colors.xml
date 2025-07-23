@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Colors (Material 3 palette recommendation) -->
+    <color name="colorPrimary">#6750A4</color> <!-- Deep purple 40 -->
+    <color name="colorPrimaryDark">#4F378B</color> <!-- Deep purple 60 -->
+    <color name="colorSecondary">#625B71</color> <!-- Greyish purple -->
+    <color name="colorTertiary">#7D5260</color>
+
+    <!-- Accent Color -->
+    <color name="colorAccent">#03DAC5</color> <!-- Legacy accent -->
+
+    <!-- Backgrounds -->
+    <color name="colorBackground">#FFFBFE</color> <!-- Default surface background -->
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnBackground">#1C1B1F</color> <!-- Text on light background -->
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#1C1B1F</color>
+    <color name="colorTextSecondary">#49454F</color>
+
+    <!-- System Bars -->
+    <color name="statusBarBackground">#EADDFF</color> <!-- Slightly tinted background -->
+    <color name="navigationBarBackground">#EADDFF</color>
+
+    <!-- Splash Screen -->
+    <color name="splash_background">#FFFBFE</color>
+    <color name="splash_status_bar">#EADDFF</color>
+
+</resources>

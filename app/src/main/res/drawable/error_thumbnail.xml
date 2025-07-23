@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#660000" /> <!-- Dark red background -->
+        </shape>
+    </item>
+    <!-- Centered error icon -->
+    <item android:gravity="center">
+        <vector android:height="48dp" android:width="48dp"
+            android:viewportHeight="24" android:viewportWidth="24">
+            <path android:fillColor="@android:color/white" android:pathData="M21.9,21.9L2.1,2.1L0.69,3.51L3,5.83V19c0,1.1,0.9,2,2,2h14c0.37,0,0.72,-0.12,1.02,-0.32L20.49,23.31L21.9,21.9zM19,19H5V7.83L19,19zM15.5,11.5c0.83,0,1.5,-0.67,1.5,-1.5s-0.67,-1.5,-1.5,-1.5s-1.5,0.67,-1.5,1.5S14.67,11.5,15.5,11.5zM18,17H6l4.5,-6l4.5,6l3,-3z"/>
+        </vector>
+    </item>
+</layer-list>

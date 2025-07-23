@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Localization keys -->
+    <string name="content_country_key">content_country</string>
+    <string name="default_localization_key">default</string>
+    <string name="content_language_key">content_language</string>
+    <string name="app_language_key">app_language</string>
+    <string name="show_original_time_ago_key">show_original_time_ago</string>
+    
+    <!-- Date and time -->
+    <string name="upload_date_text">Uploaded on %s</string>
+    
+    <!-- Views and counts -->
+    <string name="no_views">No views</string>
+    <string name="no_videos">No videos</string>
+    <string name="no_subscribers">No subscribers</string>
+    <string name="no_one_watching">No one watching</string>
+    <string name="no_one_listening">No one listening</string>
+    
+    <!-- Video counts -->
+    <string name="infinite_videos">Infinite videos</string>
+    <string name="infinite_videos_mini">∞</string>
+    <string name="more_than_100_videos">100+ videos</string>
+    <string name="more_than_100_videos_mini">100+</string>
+    
+    <!-- Short number formats -->
+    <string name="short_thousand">K</string>
+    <string name="short_million">M</string>
+    <string name="short_billion">B</string>
+    
+    <!-- Audio tracks -->
+    <string name="unknown_audio_track">Unknown audio track</string>
+    <string name="audio_track_name">%1$s (%2$s)</string>
+    <string name="audio_track_type_original">original</string>
+    <string name="audio_track_type_dubbed">dubbed</string>
+    <string name="audio_track_type_descriptive">descriptive</string>
+    <string name="audio_track_type_secondary">secondary</string>
+    
+    <!-- Plurals -->
+    <plurals name="views">
+        <item quantity="one">%s view</item>
+        <item quantity="other">%s views</item>
+    </plurals>
+    
+    <plurals name="videos">
+        <item quantity="one">%s video</item>
+        <item quantity="other">%s videos</item>
+    </plurals>
+    
+    <plurals name="subscribers">
+        <item quantity="one">%s subscriber</item>
+        <item quantity="other">%s subscribers</item>
+    </plurals>
+    
+    <plurals name="watching">
+        <item quantity="one">%s watching</item>
+        <item quantity="other">%s watching</item>
+    </plurals>
+    
+    <plurals name="listening">
+        <item quantity="one">%s listening</item>
+        <item quantity="other">%s listening</item>
+    </plurals>
+    
+    <plurals name="replies">
+        <item quantity="one">%s reply</item>
+        <item quantity="other">%s replies</item>
+    </plurals>
+    
+    <plurals name="download_finished_notification">
+        <item quantity="one">%s download finished</item>
+        <item quantity="other">%s downloads finished</item>
+    </plurals>
+    
+    <plurals name="deleted_downloads_toast">
+        <item quantity="one">%s download deleted</item>
+        <item quantity="other">%s downloads deleted</item>
+    </plurals>
+    
+    <!-- Time units -->
+    <plurals name="seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    
+    <plurals name="minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    
+    <plurals name="hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+</resources>

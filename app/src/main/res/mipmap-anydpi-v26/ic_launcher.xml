@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background rounded square (teal) -->
+    <path
+        android:fillColor="#2D9B9B"
+        android:pathData="M32,0 L76,0 Q108,0 108,32 L108,76 Q108,108 76,108 L32,108 Q0,108 0,76 L0,32 Q0,0 32,0 Z" />
+    
+    <!-- White rounded rectangle background -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M28,28 L80,28 Q88,28 88,36 L88,72 Q88,80 80,80 L28,80 Q20,80 20,72 L20,36 Q20,28 28,28 Z" />
+    
+    <!-- Purple play triangle -->
+    <path
+        android:fillColor="#6B46C1"
+        android:pathData="M43,41 L67,54 L43,67 Z" />
+    
+</vector>

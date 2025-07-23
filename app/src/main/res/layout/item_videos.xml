@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp">
+
+    <!-- Video Thumbnail Section -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:background="@color/colorBackground"
+            android:contentDescription="Video Thumbnail" />
+
+        <TextView
+            android:id="@+id/tv_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="8dp"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="2dp"
+            android:text="2:26"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBackground"
+            android:background="@drawable/duration_background" />
+    </FrameLayout>
+
+    <!-- Title & Channel Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:gravity="center_vertical">
+
+        <!-- Channel Image (circular) -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_channel_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_channel"
+            android:contentDescription="Channel Logo"
+            android:scaleType="centerCrop"
+            android:background="@color/colorBackground" />
+
+        <!-- Title & Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:text="এবার অনুসন্ধানে বেরিয়ে এলো সোনাম হত্যা-র আসল তথ্য | Mitford | ..." />
+
+            <TextView
+                android:id="@+id/tv_channel_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:text="Channel 24 • 1 day ago • 2.3M views" />
+        </LinearLayout>
+
+        <!-- Download Icon -->
+        <ImageView
+            android:id="@+id/iv_download"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_download"
+            android:contentDescription="Download"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+</LinearLayout>
